@@ -13,7 +13,25 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body style="margin-left: 20px; margin-right: 20px;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      
+        <a class="navbar-brand" href="Animals.html">Interesting Animals</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="Plane.html">Plane<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="train.html">Train</a>
+        </li>
+</nav>
+
 <h1>Animals by Hemanth sai reddy velamuri</h1>
 <p>Picked out letters from my last name - V,E,L,A,M and U.</p>
 <div class="container">
@@ -56,6 +74,8 @@
   <img src="images\Amur Leapord.jpg" class="img-thumbnail" alt="Amur Leapord" height="150px" width="150px">
 
 </div>
+<br>
+<br>
 
 <table class="table table-bordered table-hover" >
   <thead>
@@ -109,9 +129,66 @@
       <td>Udupi</td>
       <td>Ultima</td>
     </tr>
-
   </tbody>
 </table>
 
+<div>
+  <button type="button" class="btn btn-outline-primary">V</button>
+  <button type="button" class="btn btn-outline-primary">E</button>
+  <button type="button" class="btn btn-outline-primary">L</button>
+  <button type="button" class="btn btn-outline-primary">A</button>
+  <button type="button" class="btn btn-outline-primary">M</button>
+  <button type="button" class="btn btn-outline-primary">U</button>
+</div>
+<br>
+<div class="btn-toolbar" role="toolbar" aria-label="Buttons Group">
+  <div class="btn-group" role="group" aria-label="success button group">
+      <button type="button" class="btn btn-success">E</button>
+      <button type="button" class="btn btn-success">L</button>
+      <button type="button" class="btn btn-success">A</button>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="alert warning button group">
+    <button type="button" class="btn btn-warning">V</button>
+    <button type="button" class="btn btn-warning">M</button>
+  </div>
+
+  <div class="btn-group" role="group" aria-label="alert danger button group">
+   <button type="button" class="btn btn-danger">U</button>
+  </div>
+</div>
+<br>
+
+<div class="dropdown">
+  <button type="button" class="btn btn-primary active dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+    Select page
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="plane.html">Plane page</a>
+    <a class="dropdown-item" href="train.html">Train page</a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="form-group">
+    <label for="Animal" class="form-label">Enter your Animal</label>
+    <input type="text" class="form-control">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input">
+    <label class="form-check-label">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  
 </body>
 </html>
